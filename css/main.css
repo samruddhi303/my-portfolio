@@ -1,62 +1,64 @@
-body{
-   
-   background: rgb(248,248,248);
-   background: linear-gradient(90deg, rgba(248,248,248,1) 0%, rgba(218,218,218,1) 100%, rgba(153,238,255,1) 100%, rgba(2,0,36,1) 100%);
+body {
+   background-color: #a2e7d2;
 }
 
 
 
 .profile-picture {
-    border-radius: 50%;
-    max-height: 300px;
-    display: block;
-    margin: auto;
-    border: 3px solid black;
-    cursor: pointer;
-}
-.profile-picture:hover{
- max-height: 350px;
- border: 3px double white;
+   border-radius: 50%;
+   max-height: 300px;
+   display: block;
+   margin: auto;
+   border: 3px solid black;
+   cursor: pointer;
 }
 
- .skills-badge{
-    display: inline-block;
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 20px;
-    min-width: 120px;
-    text-align: center;
-    margin: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-weight: bold;
-    box-shadow: 2px 2px 2px 2px gray;
-   
- }
- .bg-ht{
-    background-color: red;
- }
+.profile-picture:hover {
+   max-height: 350px;
+   border: 3px double white;
+}
 
- .bg-cs{
-    background-color: orange;
- }
+.skills-badge {
+   display: inline-block;
+   border: 1px solid black;
+   padding: 5px;
+   border-radius: 20px;
+   min-width: 120px;
+   text-align: center;
+   margin: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+   font-weight: bold;
+   box-shadow: 2px 2px 2px 2px gray;
 
- .bg-js{
-    background-color: yellow;
- }
+}
 
- .social-handle-container{
+.bg-ht {
+   background-color: red;
+}
+
+.bg-cs {
+   background-color: orange;
+}
+
+.bg-js {
+   background-color: yellow;
+}
+
+.social-handle-container {
    display: flex;
    justify-content: space-around;
- }
-.social-handle{
+}
+
+.social-handle {
    background-color: rgb(224, 187, 139);
    margin: 15px;
    padding: 5px;
-   border-radius:  5px;
+   border-radius: 5px;
 
 }
-.skill{
+
+.skill {
    display: inline-block;
    height: 20x;
    width: 400px;
@@ -68,14 +70,16 @@ body{
    box-shadow: 2px 2px 2px 2px gray;
    margin: 10px;
    cursor: pointer;
-   
+
 }
-.skill:hover{
-  
+
+.skill:hover {
+
    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
    color: rgb(0, 110, 255);
 }
-heading:h1{
+
+heading:h1 {
    background-color: gray;
    color: white;
 }
