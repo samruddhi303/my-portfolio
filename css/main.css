@@ -57,7 +57,7 @@ body {
    border-radius: 5px;
 
 }
-
+/* 
 .skill {
    display: inline-block;
    height: 15x;
@@ -71,9 +71,18 @@ body {
    margin: 10px;
    cursor: pointer;
 
+} */
+.Skill{
+   height: 15px;
+   width: 100px;
+   border: 1px solid black;
+   padding: 10px;
+   border-radius: 5px;
+   font-weight: bold;
+   margin: 10px;
 }
 
-.skill:hover {
+.Skill:hover {
 
    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
    color: rgb(0, 110, 255);
@@ -87,4 +96,23 @@ heading:h1 {
    box-shadow: 2px 2px 2px 2px gray;
    padding-left: 20px;
    font-size:large;
+   border-radius:15px ;
 }
+.project{
+   box-shadow: 2px 2px 2px 2px gray;
+   padding-left: 20px;
+   font-size:large;
+   border-radius:15px ;
+   margin-bottom: 20px;
+   padding: 10px;
+
+}
+.course{
+   box-shadow: 2px 2px 2px 2px gray;
+   padding-left: 20px;
+   font-size:large;
+   border-radius:15px ;
+   height: 200px;
+}
+
+
